@@ -10,7 +10,7 @@
 
 ###  Popeye - Bootstrap 
 
-* Eat some spinaches and become a true Docker sailor *
+*Eat some spinaches and become a true Docker sailor*
 
 
 ![devopscircle](./.img/gg.png)
@@ -22,7 +22,7 @@
 
 > A LITTLE QUIZ TO START WITH
 
-* Q: *
+* Q: 
 ** Before starting to use Docker, it is important to gain some knowledge and to either acquire or clarify impor-
 tant points. Try to answer those questions with your friends **
 
