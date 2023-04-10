@@ -1,6 +1,5 @@
 ## B2 - Introduction to DevOps
-:-------------------------------:
-| B-DOP-200 |
+####  B-DOP-200 
 
 
 
@@ -9,24 +8,21 @@
 
 
 
-## :-- Popeye - Bootstrap --:
-:-------------------------------:
+###  Popeye - Bootstrap 
 
-| Eat some spinaches and become a true Docker sailor |
+* Eat some spinaches and become a true Docker sailor *
 
 
 ![devopscircle](./.img/gg.png)
 
-### ___Popeye - Bootstrap___
+### Popeye - Bootstrap
 
 #### STEP 0 – HELLO DOCKER!
-:----------------------------:
-
 
 
 > A LITTLE QUIZ TO START WITH
 
-*Q:*
+* Q: *
 ** Before starting to use Docker, it is important to gain some knowledge and to either acquire or clarify impor-
 tant points. Try to answer those questions with your friends **
 
