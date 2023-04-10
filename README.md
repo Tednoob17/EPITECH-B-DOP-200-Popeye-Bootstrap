@@ -23,8 +23,7 @@
 > A LITTLE QUIZ TO START WITH
 
 * Q: 
-** Before starting to use Docker, it is important to gain some knowledge and to either acquire or clarify impor-
-tant points. Try to answer those questions with your friends **
+**Before starting to use Docker, it is important to gain some knowledge and to either acquire or clarify impor-tant points. Try to answer those questions with your friends**
 
 
 - What is Docker?
@@ -32,4 +31,6 @@ tant points. Try to answer those questions with your friends **
 - How much are 2 Docker containers separated when running on the same machine?
 - What is the difference between a Docker container and a Docker image?
 - In what way will spinach helps you to master DevOps?
+
+* A: 
 
