@@ -110,15 +110,36 @@ docker run -it postgres /bin/bash
 ```
 
 4- Show containers running on your machine. Do you see the container ID of PostgreSQL?
+```bash
+	docker ps
+```
+> Output
+```bash
+➜  ~ git:(main) ✗ docker ps 
+CONTAINER ID   IMAGE      COMMAND                  CREATED         STATUS         PORTS      NAMES
+45a677be5d98   postgres   "docker-entrypoint.s…"   8 seconds ago   Up 2 seconds   5432/tcp   kind_fermi
+```
+
+5-Is your previous PostgreSQL container still running? Fine, stop it.
+
+```bash
+	docker stop -t=2 45a677be5d98
+```
+	**Here 45a677be5d98 is postgres container ID **
+
+> Output 
+
+```bash
+	45a677be5d98
+```
+
+6-Even if your container is stopped, it still exists on your system. Remove it.
 
 
+```bash
 
 
-
-
-
-
-
+```
 
 
 
