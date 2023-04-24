@@ -1,13 +1,6 @@
 
-
 ## B2 - Introduction to DevOps
 ####  B-DOP-200 
-
-
-
-
-
-
 
 
 ###  Popeye - Bootstrap 
@@ -125,7 +118,9 @@ CONTAINER ID   IMAGE      COMMAND                  CREATED         STATUS       
 ```bash
 	docker stop -t=2 45a677be5d98
 ```
-	**Here 45a677be5d98 is postgres container ID **
+
+
+	** Here 45a677be5d98 is postgres container ID **
 
 > Output 
 
@@ -134,41 +129,25 @@ CONTAINER ID   IMAGE      COMMAND                  CREATED         STATUS       
 ```
 
 6-Even if your container is stopped, it still exists on your system. Remove it.
-
+Yes he is present
 
 ```bash
-
-
+	docker rm postgres 
 ```
 
+7-Bad news! The developper told you that their application is only compatible with PostgreSQL 9.4.
+Anyway, run a container with this specific version.
 
+```bash
+        docker run --name postgre-app -e POSTGRES_PASSWORD=sailormoon -d postgres:9.4 
+```
 
+> Info:
+   When running a container with an image that is not present on your machine, Docker
+will search for it and pull it automatically.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+8-You want to list tables, but you cannot connect to this PostgreSQL instance from your host. It seems
+like the needed port is not exposed on your machine. How to fix that?
 
 
 
