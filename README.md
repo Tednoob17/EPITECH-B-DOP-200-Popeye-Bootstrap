@@ -10,7 +10,8 @@
 
 ![devopscircle](./.img/gg.png)
 
-### Popeye - Bootstrap
+### Installation
+
 
 #### STEP 0 – HELLO DOCKER!
 
@@ -149,6 +150,9 @@ will search for it and pull it automatically.
 8-You want to list tables, but you cannot connect to this PostgreSQL instance from your host. It seems
 like the needed port is not exposed on your machine. How to fix that?
 
+```bash
+	docker exec
+```
 
 
 
