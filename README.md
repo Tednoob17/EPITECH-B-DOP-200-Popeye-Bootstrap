@@ -151,7 +151,7 @@ will search for it and pull it automatically.
 like the needed port is not exposed on your machine. How to fix that?
 
 ```bash
-	docker exec
+	docker run --name postgres-app -p 5432:5432 -e POSTGRES_PASSWORD=sailormoon  postgres:9.4
 ```
 
 
