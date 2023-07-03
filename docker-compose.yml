@@ -1,0 +1,24 @@
+version: '3'
+
+
+services:
+  hello-world:
+     image: debian:buster-slim
+container_name: popeye_boot_js
+	 ports: 
+          - "8080:3000"
+	 depends_on:
+	  - db
+	 links:
+	  - db:db
+
+  db:
+     images: postegres:15.4-alpine
+       container_name: datapopeye
+       volumes:
+         - ./data:/var/lib/postgresql/data
+       environment:
+	 - POSTGRES_PASSWORD=popeye	
+		
+       ports:
+	 - "5432:5432"
